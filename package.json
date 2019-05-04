@@ -1,0 +1,54 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "async-limiter": {
+      "integrity": "sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==",
+      "resolved": "https://registry.npmjs.org/async-limiter/-/async-limiter-1.0.0.tgz",
+      "version": "1.0.0"
+    },
+    "discord.js": "^11.4.2",
+    "fs": "0.0.1-security",
+    "long": {
+      "integrity": "sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==",
+      "resolved": "https://registry.npmjs.org/long/-/long-4.0.0.tgz",
+      "version": "4.0.0"
+    },
+    "moment": {
+      "integrity": "sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==",
+      "resolved": "https://registry.npmjs.org/moment/-/moment-2.24.0.tgz",
+      "version": "2.24.0"
+    },
+    "prism-media": {
+      "integrity": "sha512-c9KkNifSMU/iXT8FFTaBwBMr+rdVcN+H/uNv1o+CuFeTThNZNTOrQ+RgXA1yL/DeLk098duAeRPP3QNPNbhxYQ==",
+      "resolved": "https://registry.npmjs.org/prism-media/-/prism-media-0.0.3.tgz",
+      "version": "0.0.3"
+    },
+    "random-puppy": "^1.1.0",
+    "safe-buffer": {
+      "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==",
+      "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz",
+      "version": "5.1.2"
+    },
+    "snekfetch": {
+      "integrity": "sha512-NjxjITIj04Ffqid5lqr7XdgwM7X61c/Dns073Ly170bPQHLm6jkmelye/eglS++1nfTWktpP6Y2bFXjdPlQqdw==",
+      "resolved": "https://registry.npmjs.org/snekfetch/-/snekfetch-3.6.4.tgz",
+      "version": "3.6.4"
+    },
+    "superagent": "^5.0.5",
+    "tweetnacl": {
+      "integrity": "sha512-kcoMoKTPYnoeS50tzoqjPY3Uv9axeuuFAZY9M/9zFnhoVvRfxz9K29IMPD7jGmt2c8SW7i3gT9WqDl2+nV7p4A==",
+      "resolved": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-1.0.1.tgz",
+      "version": "1.0.1"
+    },
+    "ws": {
+      "integrity": "sha512-ZGh/8kF9rrRNffkLFV4AzhvooEclrOH0xaugmqGsIfFgOE/pIz4fMc4Ef+5HSQqTEug2S9JZIWDR47duDSLfaA==",
+      "requires": {
+        "async-limiter": "~1.0.0",
+        "safe-buffer": "~5.1.0"
+      },
+      "resolved": "https://registry.npmjs.org/ws/-/ws-4.1.0.tgz",
+      "version": "4.1.0"
+    }
+  }
+}
