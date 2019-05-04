@@ -1,4 +1,4 @@
-// Calling the Packages and Files
+// Calling the Packages and Files  WOW
 const Discord = require("discord.js");
 const botconfig = require("./botconfig.json");
 const fs = require("fs");
@@ -97,7 +97,7 @@ bot.on("message", async message => {
     if(member.guild.id === "421853697027473408"){
 	  const channel = member.guild.channels.find(`name`, 'member-log');
 	  if(!channel) return; 
-    
+	    
 	  let Embed = new Discord.RichEmbed()
 	  .setColor("#e26346")
 	  .setAuthor(`${member.displayName}, has left ${member.guild.name}.`, member.user.displayAvatarURL)
