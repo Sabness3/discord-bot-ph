@@ -138,19 +138,8 @@ bot.on("message", async message => {
 	});
 
 
-  bot.on("message", (message) => {
-  
-    if (message.content.includes("https://discord.gg/")) {
-      console.log("deleted " + message.content + " from " + message.author)
-      message.delete(1);
-      message.channel.sendMessage("No links here, " + message.author)
-    }
-    if (message.content.includes("https://discord.gg/discord-developers")) {
-      console.log("deleted " + message.content + " from " + message.author)
-      message.delete(1);
-      message.channel.sendMessage("No links here, " + message.author)
-      }
-    });
+
+
 
 
 // Tritax AI Login:
